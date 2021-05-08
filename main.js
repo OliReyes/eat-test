@@ -78,7 +78,7 @@ class ContactFormComponent {
     saveData(form) {
         if (typeof (Storage) !== 'undefined') {
             let answers = JSON.parse(sessionStorage.getItem('answers'));
-            if (answers.length < 1) {
+            if (answers.length < 25) {
                 answers.push(form);
                 sessionStorage.setItem('answers', JSON.stringify(answers));
                 this.restart();
