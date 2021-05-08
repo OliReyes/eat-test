@@ -296,7 +296,7 @@ function AppComponent_div_3_Template(rf, ctx) { if (rf & 1) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵclassMapInterpolate1"]("prime-", ctx_r2.number, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate1"]("src", "../assets/", ctx_r2.number, ".png", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate1"]("src", "https://olireyes.github.io/eat-test/assets/", ctx_r2.number, ".png", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
 } }
 function AppComponent_div_4_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 13);
@@ -485,7 +485,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 5, consts: [[1, "container"], ["class", "instrucciones", 4, "ngIf"], ["class", "x", 4, "ngIf"], [4, "ngIf"], ["class", "wrapper", 4, "ngIf"], [1, "instrucciones"], ["type", "number", "max", "100", "min", "0", "value", "0", 3, "ngModel", "ngModelChange"], [3, "click"], [1, "x"], ["alt", "prime", "width", "250", 3, "src"], [1, "wrapper"], ["class", "target", 4, "ngIf"], ["class", "form", 4, "ngIf"], [1, "target"], ["src", "../assets/3.png", "alt", "prime", "width", "250"], [1, "form"], [3, "prime", "saved", "finished"], ["id", "results", 2, "display", "none"], [4, "ngFor", "ngForOf"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 5, consts: [[1, "container"], ["class", "instrucciones", 4, "ngIf"], ["class", "x", 4, "ngIf"], [4, "ngIf"], ["class", "wrapper", 4, "ngIf"], [1, "instrucciones"], ["type", "number", "max", "100", "min", "0", "value", "0", 3, "ngModel", "ngModelChange"], [3, "click"], [1, "x"], ["alt", "prime", "width", "250", 3, "src"], [1, "wrapper"], ["class", "target", 4, "ngIf"], ["class", "form", 4, "ngIf"], [1, "target"], ["src", "https://olireyes.github.io/eat-test/assets/3.png", "alt", "prime", "width", "250"], [1, "form"], [3, "prime", "saved", "finished"], ["id", "results", 2, "display", "none"], [4, "ngFor", "ngForOf"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, AppComponent_div_1_Template, 6, 1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, AppComponent_div_2_Template, 3, 0, "div", 2);
